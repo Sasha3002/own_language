@@ -1,0 +1,32 @@
+bool foo(float a)
+{
+    return True;
+}
+
+
+int main()
+{
+    List temp = List();
+    int a = 0;
+    int c = 4;
+    while(a < 5 and a != 24)
+    {
+        if(c * (4 - 2) > 2 or c - 1 == 5 and c != 22)
+        {
+            print(a);
+        }
+        else
+        {
+            print("to nie jest a");
+        }
+        a = a + 1;
+    }
+    Point point = Point(1, 1, 1);
+    if(foo(3.14))
+    {
+        temp.add(13);
+    }
+    print(temp.get(0));
+    print("siemano");
+    return 0;
+}
